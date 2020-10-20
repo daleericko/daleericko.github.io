@@ -2,4 +2,6 @@
     height: 200pt;
     flex-wrap: initial;
 }
-/* Todo Change titles and add contact and java */
+#about-card {
+    background-color: #42e0f5;
+}
