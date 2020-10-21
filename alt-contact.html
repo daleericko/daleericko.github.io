@@ -9,49 +9,46 @@
 </head>
 <body>
     
-        <!-- Navbar -->
-    <nav class="navbar navbar-expand-lg navbar-light bg-light">
-      <div class="container-fluid">
-        <a class="navbar-brand" href="index.html">Data Science with Erick</a>
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
-          <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
-          <div class="navbar-nav">
-            <a class="nav-link active" aria-current="page" href="index.html">Home</a>
-            <a class="nav-link" href="about.html">About</a>
-            <a class="nav-link" href="courses.html">Available Courses</a>
-            <a class="nav-link" href="contact.html">Contact</a>
-          </div>
+  <!-- Navbar -->
+  <nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="index.html">Code with Erick</a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+        <div class="navbar-nav">
+          <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+          <a class="nav-link" href="about.html">About</a>
+          <a class="nav-link" href="courses.html">Available Courses</a>
+          <a class="nav-link" href="pricing.html">Payments & Policies</a>
+          <a class="nav-link" href="contact.html">Contact</a>
         </div>
       </div>
-    </nav>
+    </div>
+  </nav>
 
-          <!-- Contact top text -->
-          <div class="container" style="margin-top: 15pt;">
-            <h1 class="display-1">
-              <p class="text-center">
-                Let's start learning
-              </p>
-            </h1>
-          </div>
-          
-          <!-- google form -->
-          <div class="container" style="padding-top: 25pt;">
-            <iframe src="https://docs.google.com/forms/d/e/1FAIpQLSdBExBEgd0tU0k9CqtHMNlOOBjHqzLFXrk8Z9CQQMGqvgw7eg/viewform?embedded=true" width="1000" height="1169" frameborder="0" marginheight="0" marginwidth="0">Loading…</iframe>
-          </div>
-          
-          
+ <!-- Contact top text -->
+ <div class="container" style="margin-top: 15pt;">
+  <h1 class="display-1">
+    <p class="text-center">
+      Let's start learning
+    </p>
+  </h1>
+</div>
+
+
 <!-- Contact form -->
 <form class="row g-3" style="margin: 50pt;">
 
-  <!-- first name input -->
+<!-- first name input -->
   <div class="col-md-6">
-      <div class="col">
-        <label for="inputFirstName" class="form-label">First Name</label>
-        <input type="text" class="form-control" placeholder="First name" aria-label="First name">
-      </div>
+    <div class="col">
+      <label for="inputFirstName" class="form-label">First Name</label>
+      <input type="text" class="form-control" placeholder="First name" aria-label="First name">
+    </div>
   </div>
+
 <!-- Last name input -->
 <div class="col-md-6">
   <div class="col">
@@ -60,61 +57,65 @@
   </div>
 </div>
 
-<!-- Email input -->
-  <div class="col-md-6">
-    <label for="inputEmail4" class="form-label">Email</label>
-    <input type="email" class="form-control" id="inputEmail4" placeholder="example@email.com" aria-label="example@email.com">
-  </div>
+<div class="col-md-6">
+  <label for="inputEmail4" class="form-label">Email</label>
+  <input type="email" class="form-control" id="inputEmail4" placeholder="example@email.com" aria-label="example@email.com">
+</div>
 
-  <!-- Phone Number input -->
-  <div class="col-md-6">
-    <label for="inputPhoneNumber" class="form-label">Phone Number</label>
-    <input type="phonenumber" class="form-control" id="inputPhoneNumber4" placeholder="000-000-0000" aria-label="000-000-0000">
-  </div>
+<div class="col-md-6">
+  <label for="inputPhoneNumber" class="form-label">Phone Number</label>
+  <input type="password" class="form-control" id="inputPassword4" placeholder="000-000-0000" aria-label="000-000-0000">
+</div>
 
-  <!-- Check box input for what they are interested in learning -->
-  <div class="col-6" style="padding-top: 10pt;">
-    <label for="inputCourseSelect" class="form-label">I want to learn:</label>
+<!-- Checkboxes -->
+<div class="col-md-6 pt-3">
+  <label for="courseSelect" class="form-label">Select Course(s)</label>
+
+    <!-- R -->
     <div class="form-check">
-      <input class="form-check-input" type="checkbox" value="" id="flexCheckChecked" checked>
+      <input class="form-check-input" type="checkbox" value="R" id="flexCheckChecked" checked>
       <label class="form-check-label" for="flexCheckChecked">
         R
       </label>
     </div>
-<!-- Python -->
+
+    <!-- Python -->
     <div class="form-check">
-      <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+      <input class="form-check-input" type="checkbox" value="python" id="flexCheckDefault">
       <label class="form-check-label" for="flexCheckDefault">
         Python
       </label>
     </div>
-<!-- Web Development -->
+    
+    <!-- Web Development -->
     <div class="form-check">
-      <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+      <input class="form-check-input" type="checkbox" value="webDev" id="flexCheckDefault">
       <label class="form-check-label" for="flexCheckDefault">
         Web Development
       </label>
     </div>
-<!-- Other -->
+
+    <!-- Other -->
     <div class="form-check">
-      <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+      <input class="form-check-input" type="checkbox" value="other" id="flexCheckDefault">
       <label class="form-check-label" for="flexCheckDefault">
-        Other (Suggest a course!)
+        Other
       </label>
     </div>
   </div>
-  
-  
+
+
+
   <!-- Free response message -->
   <div class="col-12">
     <label for="textInput" class="form-label">Write a message</label>
     <textarea class="form-control" id="textInput" rows="6"></textarea>
   </div>
-  
-  <div class="col-12">
-  <button type="submit" class="btn btn-primary">Send message</button>
-  </div>
 
+
+  <div class="col-12">
+    <button type="submit" class="btn btn-primary">Submit</button>
+  </div>
 </form>
 
 
